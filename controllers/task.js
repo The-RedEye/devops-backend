@@ -1,15 +1,21 @@
-const mongoose = require('../db/connection')
+const express = require('express')
+const Task = require('../models/task')
 
-const TaskSchema = mongoose.Schema({
-  projectID: String,
-  task: String,
-  dev: String,
-  completed: Boolean,
-  subtask: Boolean,
-  subtaskArr: [],
-  masterTask: String
+const TaskRouter = express.Router()
+
+//create Task Object
+TaskRouter.post('/', (req, res, next) => {
+  Task.create(req.body)
+    .then(task => res.json(task))
+    .catch(next)
 })
 
-const Task = mongoose.model('Task', TaskSchema)
+//get all Task Objects
+TaskRouter.get('/', (req, res, next) => {
+  Task.find( {} )
+    .then(tasks => res.json(tasks))
+    .catch(next)
+})
 
-module.exports = Task
+
+module.exports = TaskRouter

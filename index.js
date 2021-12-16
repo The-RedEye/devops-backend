@@ -11,6 +11,9 @@ app.use(express.urlencoded( {extended: true} ))
 const ProjectController = require('./controllers/project')
 app.use('/devops', ProjectController)
 
+const TaskController = require('./controllers/task')
+app.use('/task', TaskController)
+
 //end Controllers-----------------
 
 //Listen clause
