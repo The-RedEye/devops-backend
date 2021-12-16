@@ -18,5 +18,26 @@ ProjectRouter.get('/', (req, res, next) => {
     .catch(next)
 })
 
+//update (put) a project object
+ProjectRouter.put('/:id', (req, res, next) => {
+  Project.findOneAndUpdate({_id: req.params.id}, req.body, {new: true})
+    .then(project => res.json(project))
+    .catch(next)
+})
+
+//delete a project object
+ProjectRouter.delete('/:id', (req, res, next) => {
+  Project.findOneAndDelete({_id: req.params.id})
+    .then(project => res.json(project))
+    .catch(next)
+})
+
+//find a singular project using id
+ProjectRouter.get('/:id', (req, res, next) => {
+  Project.findById( {_id: req.params.id})
+    .then(project => res.json(project))
+    .catch(next)
+})
+
 
 module.exports = ProjectRouter
