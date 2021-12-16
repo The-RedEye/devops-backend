@@ -8,8 +8,10 @@ app.use(express.urlencoded( {extended: true} ))
 
 //Controllers --------------------
 
-//end Controllers-----------------
+const ProjectController = require('./controllers/project')
+app.use('/devops', ProjectController)
 
+//end Controllers-----------------
 
 //Listen clause
 app.listen(app.get('port'), () => {
