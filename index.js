@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 4000)
 
 app.use(express.json())
 app.use(express.urlencoded( {extended: true} ))
@@ -13,6 +13,9 @@ app.use('/devops', ProjectController)
 
 const TaskController = require('./controllers/task')
 app.use('/task', TaskController)
+
+const UserController = require('./controllers/user')
+app.use('/user', UserController)
 
 //end Controllers-----------------
 
