@@ -14,6 +14,9 @@ app.use('/devops', ProjectController)
 const TaskController = require('./controllers/task')
 app.use('/task', TaskController)
 
+const UserController = require('./controllers/user')
+app.use('/user', UserController)
+
 //end Controllers-----------------
 
 //Listen clause

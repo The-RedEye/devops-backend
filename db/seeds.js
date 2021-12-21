@@ -9,13 +9,13 @@ Project.deleteMany({})
   .then( () => Project.insertMany(ProjectSeed))
   .then( console.log )
   .catch( console.error )
-  .finally( () => { process.exit() })
+ 
 
   Task.deleteMany({})
   .then( () => Task.insertMany(TaskSeed))
   .then( console.log )
   .catch( console.error )
-  .finally( () => { process.exit() })
+ 
 
   User.deleteMany({})
   .then( () => User.insertMany(UserSeed))
