@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Stan",
+    "email": "stan@mail.com",
+    "password": "stanpw",
+    "projects": null,
+    "tasks": null,
+    "admin": true,
+    "photo": null
+  },
+  {
+    "name": "Mabe",
+    "email": "mabe@email.com",
+    "password": "mabepw",
+    "projects": null,
+    "tasks": null,
+    "admin": true,
+    "photo": null
+  },
+  {
+    "name": "Tad",
+    "email": "tad@mail.com",
+    "password": "tadpw",
+    "projects": null,
+    "tasks": null,
+    "admin": true,
+    "photo": null
+  },
+  {
+    "name": "Panda",
+    "email": "panda@mail.com",
+    "password": "pandapw",
+    "projects": null,
+    "tasks": null,
+    "admin": false,
+    "photo": null
+  },
+  {
+    "name": "Filipe",
+    "email": "filipe@mail.com",
+    "password": "waifu",
+    "projects": null,
+    "tasks": null,
+    "admin": true,
+    "photo": null
+  },
+  {
+    "name": "Will",
+    "email": "will@mail.com",
+    "password": "waifu",
+    "projects": null,
+    "tasks": null,
+    "admin": false,
+    "photo": null
+  },
+  {
+    "name": "patricio",
+    "email": "patricio@mail.com",
+    "password": "patriciopw",
+    "projects": null,
+    "tasks": null,
+    "admin": false,
+    "photo": null
+  }
+]
