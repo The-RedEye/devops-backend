@@ -11,6 +11,21 @@ TaskRouter.post('/', (req, res, next) => {
     .catch(next)
 })
 
+// TaskRouter.post("/", (req, res, next) => {
+//   const { task, projectId } = req.body;
+//   Task.create(task)
+//     .then((task) => {
+//       Project.findByIdAndUpdate(
+//         projectId,
+//         { $push: { tasks: task._id } },
+//         { new: true }
+//       )
+//         .populate("tasks")
+//         .then((project) => res.json(project));
+//     })
+//     .catch(next);
+// });
+
 //get all Task Objects
 TaskRouter.get('/', (req, res, next) => {
   Task.find( {} )
