@@ -9,7 +9,10 @@ const TaskSchema = new mongoose.Schema({
   completed: Boolean,
   subtask: Boolean,
   subtaskArr: [],
-  masterTask: String
+  masterTask: String,
+  name: String,
+  description: String,
+  comments: [String]
 })
 
 const Task = mongoose.model('Task', TaskSchema)
