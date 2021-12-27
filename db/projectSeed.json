@@ -1,21 +1,33 @@
 [
   {
-    "name": "First Project"
+    "name": "First Project",
+    "tasks": [],
+    "comments": []
   },
   {
-    "name": "Reuse/Resolve deltas"
+    "name": "Reuse/Resolve deltas",
+    "tasks": [],
+    "comments": []
   },
   {
-    "name": "Count objects"
+    "name": "Count objects",
+    "tasks": [],
+    "comments": []
   },
   {
-    "name": "Delta compression use"
+    "name": "Delta compression use",
+    "tasks": [],
+    "comments": []
   },
   {
-    "name": "Dev Ops doing stuff"
+    "name": "Dev Ops doing stuff",
+    "tasks": [],
+    "comments": []
   },
   {
-    "name": "Project Panda Parade"
+    "name": "Project Panda Parade",
+    "tasks": [],
+    "comments": []
   }
   
 ]

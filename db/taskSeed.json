@@ -1,50 +1,102 @@
 [
   {
     "projectID": "Invalid ID",
-    "dev": "Stan",
+    "dev": ["Stan"],
     "completed": false,
     "subtask": false,
     "subtaskArr": [],
-    "masterTask": null
+    "masterTask": null,
+    "name":"Backend",
+    "description":"BackendStuff",
+    "dueDate": "theFuture",
+    "comments": [{
+      "comment": "Backend",
+      "author":"invalidID",
+      "targets":[]
+    }]
   },
   {
     "projectID": "Another ID",
-    "dev": "Mabe",
+    "dev": ["Mabe"],
     "completed": true,
     "subtask": false,
     "subtaskArr": [],
-    "masterTask": null
+    "masterTask": null,
+    "name":"Frontend",
+    "description":"Front end stuff",
+    "dueDate": "theFuture",
+    "comments": [{
+      "comment": "Still working on field reset",
+      "author":"invalidID",
+      "targets": ["invalidUsers"]
+    },
+    {
+        "comment": "Still working on edit tasks",
+        "author":"invalidID"
+      }]
   },
   {
     "projectID": "Look at my ID",
-    "dev": "Tad",
+    "dev": ["Tad"],
     "completed": true,
     "subtask": false,
     "subtaskArr": [],
-    "masterTask": null
+    "masterTask": null,
+    "name":"UI",
+    "description":"Pretty stuff",
+    "dueDate": "theFuture",
+    "comments": [{
+      "comment": "Bootstrak rocks",
+      "author":"invalidID",
+      "targets":[]
+    }]
   },
   {
     "projectID": "No way home",
-    "dev": "Spider-man",
+    "dev": ["Spider-man"],
     "completed": false,
     "subtask": false,
     "subtaskArr": [],
-    "masterTask": null
+    "masterTask": null,
+    "name":"No way home",
+    "description":"maybe best MCU movie ever",
+    "dueDate": "theFuture",
+    "comments": [{
+      "comment": "agreed",
+      "author": "invalidID",
+      "targets": []
+    }]
   },
   {
     "projectID": "Tonari no",
-    "dev": "Totoro",
+    "dev": ["Totoro"],
     "completed": false,
     "subtask": false,
     "subtaskArr": [],
-    "masterTask": null
+    "masterTask": null,
+    "name":"Tonari no Totoro",
+    "description":"fluffy",
+    "dueDate": "theFuture",
+    "comments": [{
+      "comment": "a classic",
+      "author": "invalidID",
+      "targets": []
+    }]
   },
   {
     "projectID": "Everyone loves me",
-    "dev": "Panda",
+    "dev": ["Panda"],
     "completed": false,
     "subtask": false,
     "subtaskArr": [],
-    "masterTask": null
+    "masterTask": null,
+    "name":"Panda paradox",
+    "description":"yes",
+    "dueDate": "theFuture",
+    "comments": [{
+      "comment": "silly panda",
+      "author": "invalidID",
+      "targets": []
+    }]
   }
 ]

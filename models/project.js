@@ -5,6 +5,11 @@ const ProjectSchema = new mongoose.Schema({
   tasks: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Task'
+  }],
+  comments: [{
+    comment: String,
+    author: String,
+    targets: [String]
   }]
 })
 

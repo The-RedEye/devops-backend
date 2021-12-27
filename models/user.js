@@ -13,7 +13,7 @@ const UserSchema = new mongoose.Schema({
     ref: 'Task'
   }],
   admin: {type: Boolean, default:false},
-  photo: String,
+  photo: String
   // quote: String
 })
 
