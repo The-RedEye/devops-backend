@@ -58,7 +58,7 @@
     "subtask": false,
     "subtaskArr": [],
     "masterTask": null,
-    "name":"Best spidey ever",
+    "name":"No way home",
     "description":"maybe best MCU movie ever",
     "dueDate": "theFuture",
     "comments": [{
@@ -74,7 +74,7 @@
     "subtask": false,
     "subtaskArr": [],
     "masterTask": null,
-    "name":"ba-dum-dum-dum",
+    "name":"Tonari no Totoro",
     "description":"fluffy",
     "dueDate": "theFuture",
     "comments": [{
@@ -90,7 +90,7 @@
     "subtask": false,
     "subtaskArr": [],
     "masterTask": null,
-    "name":"paradox",
+    "name":"Panda paradox",
     "description":"yes",
     "dueDate": "theFuture",
     "comments": [{
