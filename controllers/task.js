@@ -6,6 +6,7 @@ const TaskRouter = express.Router()
 
 //create Task Object
 TaskRouter.post('/', (req, res, next) => {
+  console.log("normal post of:", res)
   Task.create(req.body)
     .then(task => res.json(task))
     .catch(next)
@@ -15,6 +16,7 @@ TaskRouter.post("/", (req, res, next) => {
   const { task, projectId } = req.body;
   Task.create(task)
     .then((task) => {
+      console.log("adding to proj:", projectID, "task:", task)
       Project.findByIdAndUpdate(
         projectId,
         { $push: { tasks: task._id } },

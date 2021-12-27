@@ -13,7 +13,12 @@ const TaskSchema = new mongoose.Schema({
   masterTask: String,
   name: String,
   description: String,
-  comments: [String]
+  dueDate: String,
+  comments: [{
+    comment: String,
+    author: String,
+    targets: [String]
+  }]
 })
 
 const Task = mongoose.model('Task', TaskSchema)
