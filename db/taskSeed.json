@@ -9,6 +9,7 @@
     "name":"Backend",
     "description":"BackendStuff",
     "dueDate": "theFuture",
+    "status":"notStarted"
     "comments": [{
       "comment": "Backend",
       "author":"invalidID",
@@ -25,6 +26,7 @@
     "name":"Frontend",
     "description":"Front end stuff",
     "dueDate": "theFuture",
+    "status":"inProgress",
     "comments": [{
       "comment": "Still working on field reset",
       "author":"invalidID",
@@ -45,6 +47,7 @@
     "name":"UI",
     "description":"Pretty stuff",
     "dueDate": "theFuture",
+    "status":"inReview",
     "comments": [{
       "comment": "Bootstrak rocks",
       "author":"invalidID",
@@ -61,6 +64,7 @@
     "name":"No way home",
     "description":"maybe best MCU movie ever",
     "dueDate": "theFuture",
+    "status":"notStarted",
     "comments": [{
       "comment": "agreed",
       "author": "invalidID",
@@ -77,6 +81,7 @@
     "name":"Tonari no Totoro",
     "description":"fluffy",
     "dueDate": "theFuture",
+    "status":"inReview",
     "comments": [{
       "comment": "a classic",
       "author": "invalidID",
@@ -93,6 +98,7 @@
     "name":"Panda paradox",
     "description":"yes",
     "dueDate": "theFuture",
+    "status":"inProgress",
     "comments": [{
       "comment": "silly panda",
       "author": "invalidID",
