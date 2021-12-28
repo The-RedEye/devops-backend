@@ -6,7 +6,7 @@ const TaskSchema = new mongoose.Schema({
   //   ref:'Project'
   // },
   projectID: String,
-  dev: String,
+  devs: [String],
   completed: Boolean,
   subtask: Boolean,
   subtaskArr: [],
