@@ -14,6 +14,7 @@ const TaskSchema = new mongoose.Schema({
   name: String,
   description: String,
   dueDate: String,
+  status: String,
   comments: [{
     comment: String,
     author: String,
