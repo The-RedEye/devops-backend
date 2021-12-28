@@ -1,7 +1,7 @@
 [
   {
     "projectID": "Invalid ID",
-    "dev": ["Stan"],
+    "devs": ["Stan"],
     "completed": false,
     "subtask": false,
     "subtaskArr": [],
@@ -17,7 +17,7 @@
   },
   {
     "projectID": "Another ID",
-    "dev": ["Mabe"],
+    "devs": ["Mabe"],
     "completed": true,
     "subtask": false,
     "subtaskArr": [],
@@ -37,7 +37,7 @@
   },
   {
     "projectID": "Look at my ID",
-    "dev": ["Tad"],
+    "devs": ["Tad"],
     "completed": true,
     "subtask": false,
     "subtaskArr": [],
@@ -53,7 +53,7 @@
   },
   {
     "projectID": "No way home",
-    "dev": ["Spider-man"],
+    "devs": ["Spider-man"],
     "completed": false,
     "subtask": false,
     "subtaskArr": [],
@@ -69,7 +69,7 @@
   },
   {
     "projectID": "Tonari no",
-    "dev": ["Totoro"],
+    "devs": ["Totoro"],
     "completed": false,
     "subtask": false,
     "subtaskArr": [],
@@ -85,7 +85,7 @@
   },
   {
     "projectID": "Everyone loves me",
-    "dev": ["Panda"],
+    "devs": ["Panda"],
     "completed": false,
     "subtask": false,
     "subtaskArr": [],
