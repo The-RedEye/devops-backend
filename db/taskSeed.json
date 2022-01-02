@@ -9,7 +9,7 @@
     "name":"Backend",
     "description":"BackendStuff",
     "dueDate": "theFuture",
-    "status":"notStarted"
+    "status":"notStarted",
     "comments": [{
       "comment": "Backend",
       "author":"invalidID",
