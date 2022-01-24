@@ -5,8 +5,13 @@ const EventRouter = express.Router()
 
 //create Event Object
 EventRouter.post('/', (req, res, next) => {
+    if(req.body.isDefault===true){
+     Event.findOneAndUpdate({isDefault: true}, {$set: {isDefault: false}})   
+    }
+    
     Event.create(req.body)
         .then(feedback => res.json (feedback))
+    
 })
 
 //get all event objects
