@@ -30,7 +30,7 @@ EventRouter.put('/:id', (req, res, next) => {
 
 //delete a feedback object by ID
 EventRouter.delete('/:id', (req, res, next) =>  {
-    Event.findByID( {_id: req.params.id} )
+    Event.findOneAndDelete( {_id: req.params.id} )
     .then(feedback =>res.json(feedback))
     .catch(next)
 })
