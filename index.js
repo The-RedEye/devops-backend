@@ -19,9 +19,15 @@ app.use('/task', TaskController)
 const UserController = require('./controllers/user')
 app.use('/user', UserController)
 
+const FeedbackController = require('./controllers/feedback')
+app.use('/feedback', FeedbackController)
+
+const EventController = require('./controllers/event')
+app.use('/event', EventController)
 //end Controllers-----------------
 
 //Listen clause
+
 app.listen(app.get('port'), () => {
-  console.log(`Connected to Port: ${app.get('port')}`)
+  console.log(`=====Connected to Port: ${app.get('port')}=====`)
 })
