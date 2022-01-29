@@ -1,9 +1,12 @@
 const mongoose = require ('mongoose')
 
-const mongoURI = 'mongodb://localhost/devops'
-// const mongoURI = process.env.NODE_ENV === 'production'
-//   ?process.env.DB_URL
-//   :'mongodb://localhost/devops'
+// local
+// const mongoURI = 'mongodb://localhost/devops'
+
+//production(Heroku)
+const mongoURI = process.env.NODE_ENV === 'production'
+  ?process.env.DB_URL
+  :'mongodb://localhost/devops'
 
 mongoose.connect(mongoURI)
   .then(instance =>
